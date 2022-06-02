@@ -1,0 +1,26 @@
+.login-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.login-logo {
+  height: 100vh;
+  padding: 12rem 4rem 4rem 14rem;
+}
+.login-cred {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  
+}
+.login-btn {
+  background: #6f42c1;
+  color: white;
+  width: 150px;
+  font-size: 18px;
+}
+.input-cred {
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

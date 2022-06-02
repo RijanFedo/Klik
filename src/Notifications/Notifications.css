@@ -1,0 +1,95 @@
+.notifi-heading {
+  font-size: 25px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.notifi {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+.notifi-content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 1rem 0 1rem;
+}
+.username {
+  font-size: 13px;
+}
+.notifi-time {
+  /* margin-left: 13px; */
+  font-size: 10px;
+  color: grey;
+}
+.sug-username {
+  font-size: 15px;
+}
+.sug-content {
+  display: grid;
+  grid-template-columns: 0.7fr 2fr 1fr;
+  padding: 0 1rem 0 1rem;
+}
+.notifi-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+@media screen and (max-width: 1018px) {
+  .sug-content {
+    padding: 0 0.8rem 0 0.8rem;
+  }
+}
+@media screen and (max-width: 998px) {
+  .notifi-content {
+    gap: 0.7rem;
+    padding: 0 0.6rem 0 0.6rem;
+  }
+  .sug-content {
+    padding: 0 0.4rem 0 0.4rem;
+  }
+  .notifi-bar {
+    gap: 0.8rem;
+    padding: 0.4rem 0 0.4rem 0;
+  }
+}
+@media screen and (max-width: 966px) {
+  .notifi-content {
+    gap: 0.5rem;
+    padding: 0 0.3rem 0 0.3rem;
+  }
+  .username {
+    font-size: 12px;
+  }
+  .notifi-heading {
+    font-size: 22px;
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  }
+  .sug-username {
+    font-size: 14px;
+  }
+  .sug-content {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 883px) {
+  .notifi-content {
+    gap: 0.4rem;
+    padding: 0 0.2rem 0 0.3rem;
+  }
+  .username {
+    font-size: 11px;
+  }
+  .notifi-heading {
+    font-size: 22px;
+    padding: 0.4rem 0.6rem 0.4rem 0.6rem;
+  }
+  .sug-username {
+    font-size: 13px;
+  }
+  .sug-content {
+    gap: 9px;
+  }
+}

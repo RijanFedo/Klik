@@ -1,0 +1,14 @@
+.signup-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.reg-cred {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+  }

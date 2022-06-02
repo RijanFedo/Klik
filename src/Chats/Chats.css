@@ -1,0 +1,70 @@
+.chats-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.form-control {
+  border: 0;
+}
+.pad {
+  padding: 0 1.5rem 0 1.5rem;
+}
+.chats_header1 {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0 1rem 0 0.5rem;
+
+  /* border-right: 1px solid lightgray; */
+  font-size: 1.7rem;
+}
+
+.chats-sub-headers {
+  display: flex;
+  gap: 2rem;
+  padding: 0 1.5rem 0.5rem 1.5rem;
+  font-size: 11px;
+  cursor: pointer;
+}
+.chats-header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem 0 0.5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.header-icon :hover {
+  fill: #893bef;
+}
+.header-icon {
+  color: rgb(169, 167, 167);
+}
+.chats-all {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  gap: 0.5rem;
+  height: 67vh;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+}
+.add-popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 90%);
+  width: 40%;
+  height: 40vh !important;
+  background-color: white;
+  /* border: 2px solid #000; */
+  border-radius: 10px;
+  overflow-y: scroll;
+  /* boxShadow: 24; */
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+.result-of-popupsearch {
+  padding: 30px;
+  display: grid;
+}

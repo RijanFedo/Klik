@@ -1,0 +1,46 @@
+.side-chats {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.side-chats2 {
+  color: white;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+
+    #232526,
+    #414345
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #232526, #414345);
+}
+
+.side-chats:hover {
+  color: white;
+  background: #232526;
+  background: -webkit-linear-gradient(
+    to right,
+
+    #232526,
+    #414345
+  );
+  background: linear-gradient(to right, #232526, #414345);
+}
+.count {
+  background: #893bef;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  color: white;
+}
